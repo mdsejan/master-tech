@@ -67,6 +67,24 @@
 .mt-btn3:hover svg path {
   stroke: #fff;
 }
+
+.mt-btn4 {
+  border-radius: 50px;
+  color: #141d38;
+  background-color: var(--bg-white);
+}
+
+.mt-btn4:hover {
+  background-color: var(--bg-white);
+  border-radius: 50px;
+  color: #141d38;
+}
+
+.mt-btn4:hover svg {
+  margin-left: 15px;
+  transition: margin-left 0.5s ease-in-out;
+}
+
 /* ===> Navbar <=== */
 
 .mt-nav {
@@ -259,6 +277,43 @@
 .blog-meta .post-date {
   font-family: "Inter", sans-serif;
   color: #737887;
+}
+/* ===> Newsletter <=== */
+
+.newsletter {
+  width: 100%;
+  padding: 25px 0;
+  background-color: var(--bg-blue);
+}
+
+.newsletter .heading {
+  font-size: 2.75rem;
+  font-weight: bold;
+  color: #fff;
+}
+.newsletter .para {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.newsletter-right input {
+  width: 55%;
+  background-color: #684df4;
+  border: 1px solid white;
+  border-radius: 50px;
+  color: #fff !important;
+  padding: 8px 15px;
+}
+
+.newsletter-right input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+.newsletter-right input:focus {
+  background-color: #684df4;
+  border: 1px solid white;
+  outline: none;
+  box-shadow: none;
 }
 /* ===> Responsive design <=== */
 
