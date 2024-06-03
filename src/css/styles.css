@@ -315,6 +315,54 @@
   outline: none;
   box-shadow: none;
 }
+
+/* ===> Footer <=== */
+footer {
+  background-color: #080e1c;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+
+footer h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+ol,
+ul {
+  padding-left: 0rem;
+}
+
+footer ul li {
+  list-style-type: none;
+  text-align: start;
+  font-family: "Inter", sans-serif;
+  margin-bottom: 5px;
+}
+footer ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  margin-left: 5px;
+  transition: margin-left 0.4s ease-in-out;
+}
+
+.social svg {
+  margin-right: 15px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.social svg:hover path {
+  fill: #fff;
+  transition: fill 0.4s ease-in-out;
+}
+.social svg:hover rect {
+  fill: #684df4;
+  transition: fill 0.4s ease-in-out;
+}
+
 /* ===> Responsive design <=== */
 
 /* Extra Small devices ( phones, upto  576px) */
