@@ -181,6 +181,14 @@
   fill-opacity: 1;
   transition: fill-opacity 1s ease;
 }
+
+.service-card .card-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.service-card .card-text {
+  font-family: "Inter", sans-serif;
+}
 /* ===> Responsive design <=== */
 
 /* Extra Small devices ( phones, upto  576px) */
