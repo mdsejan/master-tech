@@ -1,6 +1,17 @@
 /*Google font */
 
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+/* ==> custom colors <== */
+
+:root {
+  --bg-primary: #080e1c;
+  --bg-secondary: #171c27;
+  --bg-white: #fff;
+  --bg-blue: #684df4;
+}
+
+/* ==> Global Styles <== */
 
 * {
   margin: 0;
@@ -9,14 +20,6 @@
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-/*custom colors */
-
-:root {
-  --bg-primary: #080e1c;
-  --bg-secondary: #171c27;
-  --bg-white: #fff;
-  --bg-blue: #684df4;
-}
 .text-white {
   color: #fff;
 }
@@ -26,6 +29,15 @@
   border: 2px solid #fff;
   border-radius: 50px;
 }
+
+.mt-btn-2,
+.mt-btn-2:hover {
+  background-color: var(--bg-blue);
+  border-radius: 50px;
+  padding: 10px 15px;
+}
+
+/* ===> Navbar <=== */
 
 .mt-nav {
   background-color: var(--bg-primary);
@@ -42,3 +54,42 @@
 .mt-nav .nav-link:hover {
   text-decoration: underline;
 }
+
+/* ===> Hero Section <=== */
+
+.hero {
+  width: 100%;
+  padding: 120px 0;
+  background-color: var(--bg-primary);
+}
+.mt-hero {
+  min-height: 65vh;
+  color: white;
+  background: var(--bg-primary) url("../assets/hero-bg.png") no-repeat;
+  background-size: cover;
+}
+.hero-img {
+  transform: translateX(35%);
+}
+
+.hero-content .heading-top {
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "Inter", sans-serif;
+}
+.hero-content h2 {
+  font-size: 3.9rem;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 30px;
+}
+.hero-content p {
+  margin-top: 30px;
+  font-family: "Inter", sans-serif;
+}
+.hero-btn-sec {
+  margin-top: 30px;
+}
+
+/* ===> Brand Logo Section <=== */
