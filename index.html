@@ -13,15 +13,83 @@
 </head>
 
 <body>
-    <section>
+    <!-- ===> Navbar Start <==== -->
+    <nav class="mt-nav navbar navbar-expand-lg">
         <div class="container">
-            <!-- Content here -->
-            <h2>Master tech</h2>
+            <a class="navbar-brand" href="/index.html">
+                <img src="/src/assets/logo.png" alt="Master Tech logo" class="img-fluid">
+            </a>
+            <button class="navbar-toggler bg-light type=" button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse pb-sm-5 pb-md-3" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-3">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item dropdown me-3">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul> -->
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
 
+                </ul>
+                <div class="d-flex flex-wrap align-items-center fw-bold">
+                    <div class="me-4">
+                        <a href="tel:+18884233526" class="text-white" style="text-decoration: none;">
+                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.09226 12.9377C3.06524 11.1468 2.56934 9.68452 2.27033 8.20223C1.82809 6.00996 2.84013 3.86846 4.51666 2.50201C5.22524 1.92449 6.0375 2.12181 6.4565 2.87352L7.40245 4.57057C8.15223 5.9157 8.52712 6.58826 8.45276 7.30131C8.37841 8.01436 7.87282 8.5951 6.86164 9.7566L4.09226 12.9377ZM4.09226 12.9377C6.17106 16.5624 9.43333 19.8265 13.0622 21.9077L4.09226 12.9377ZM13.0622 21.9077C14.8531 22.9347 16.3154 23.4306 17.7977 23.7296C19.9899 24.1719 22.1315 23.1598 23.4979 21.4832C24.0754 20.7747 23.8781 19.9625 23.1264 19.5434L21.4294 18.5975C20.0842 17.8477 19.4117 17.4728 18.6986 17.5472C17.9856 17.6215 17.4048 18.1271 16.2433 19.1383L13.0622 21.9077Z"
+                                    fill="#684DF4" />
+                                <path
+                                    d="M4.09226 12.9377C3.06524 11.1468 2.56934 9.68452 2.27033 8.20223C1.82809 6.00996 2.84013 3.86846 4.51666 2.50201C5.22524 1.92449 6.0375 2.12181 6.4565 2.87352L7.40245 4.57057C8.15223 5.9157 8.52712 6.58826 8.45276 7.30131C8.37841 8.01436 7.87282 8.5951 6.86164 9.7566L4.09226 12.9377ZM4.09226 12.9377C6.17106 16.5624 9.43333 19.8265 13.0622 21.9077M13.0622 21.9077C14.8531 22.9347 16.3154 23.4306 17.7977 23.7296C19.9899 24.1719 22.1315 23.1598 23.4979 21.4832C24.0754 20.7747 23.8781 19.9625 23.1264 19.5434L21.4294 18.5975C20.0842 17.8477 19.4117 17.4728 18.6986 17.5472C17.9856 17.6215 17.4048 18.1271 16.2433 19.1383L13.0622 21.9077Z"
+                                    stroke="#684DF4" stroke-width="2" stroke-linejoin="round" />
+                            </svg>
+                            <span class="ms-2">+1 (888) 423-3526</span>
+                        </a>
+                    </div>
+                    <button class="btn mt-btn text-white my-4 my-md-0">
+                        <span class="fw-bold me-2">Get A Quote</span>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M12 16L16 12L12 8" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M8 12L16 12" stroke="white" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+
+                    </button>
+                </div>
+
+            </div>
         </div>
-
-
-    </section>
+    </nav>
 
 
 

@@ -1,3 +1,5 @@
+/*Google font */
+
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 * {
@@ -14,4 +16,29 @@
   --bg-secondary: #171c27;
   --bg-white: #fff;
   --bg-blue: #684df4;
+}
+.text-white {
+  color: #fff;
+}
+
+.mt-btn,
+.mt-btn:hover {
+  border: 2px solid #fff;
+  border-radius: 50px;
+}
+
+.mt-nav {
+  background-color: var(--bg-primary);
+  color: #fff;
+}
+
+.navbar-nav .nav-link.active,
+.mt-nav .nav-link {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.mt-nav .nav-link:hover {
+  text-decoration: underline;
 }
